@@ -1,5 +1,5 @@
 {
-    "name": "mux/uuid",
+    "name": "muxfw/uuid",
     "type": "framework",
     "autoload": {
         "psr-4": {
