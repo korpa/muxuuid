@@ -1,0 +1,12 @@
+{
+    "name": "mux/uuid",
+    "type": "framework",
+    "autoload": {
+        "psr-4": {
+            "Mux\\Uuid\\": "src"
+        }
+    },
+    "require": {
+        "rhumsaa/uuid": "~2.8"
+    }
+}
