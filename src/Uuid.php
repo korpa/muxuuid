@@ -2,7 +2,6 @@
 
 namespace Mux\Uuid;
 
-use Rhumsaa\Uuid\Uuid;
 use Rhumsaa\Uuid\Exception\UnsatisfiedDependencyException;
 
 class Uuid {
@@ -11,7 +10,7 @@ class Uuid {
 	}
 
 	public function v4() {
-		$uuid4 = Uuid::uuid4();
+		$uuid4 = \Rhumsaa\Uuid\Uuid::uuid4();
 		return $uuid4->toString();
 	}
 
